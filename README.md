@@ -42,6 +42,9 @@
 The project successfully demonstrates the use of Random Forest for binary classification in a fake news detection context. By leveraging text processing techniques and integrating additional features like text length and punctuation usage, the model aims to improve the accuracy and reliability of the classification. The resulting metrics and confusion matrix provide a comprehensive understanding of the model's strengths and weaknesses, guiding future improvements or iterations.
 
 
+
+
+
 ## Maternal Health Risk using machine learning:
 
 

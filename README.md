@@ -1,6 +1,6 @@
 # machine-learning-project
 
-##Fake News Classification Using Random Forest:
+## Fake News Classification Using Random Forest:
 
 
 "Fake News Classification Using Random Forest" is a machine learning-based approach designed to classify news articles as either real or fake. The main objective is to develop a reliable model that can distinguish between authentic and fabricated news using a Random Forest Classifier, a popular ensemble learning method.
@@ -42,7 +42,7 @@
 The project successfully demonstrates the use of Random Forest for binary classification in a fake news detection context. By leveraging text processing techniques and integrating additional features like text length and punctuation usage, the model aims to improve the accuracy and reliability of the classification. The resulting metrics and confusion matrix provide a comprehensive understanding of the model's strengths and weaknesses, guiding future improvements or iterations.
 
 
-##Maternal Health Risk using machine learning:
+## Maternal Health Risk using machine learning:
 
 
 maternal health risk assessment using machine learning involves the development of predictive models that leverage patient data to identify and manage risks associated with pregnancy and childbirth. These models have the potential to enhance maternal healthcare by enabling early interventions and improving overall outcomes for both mothers and infants.

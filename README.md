@@ -1,7 +1,7 @@
 # Machine-Learning-projects
 
 
-##📰 Fake News Classification Using Random Forest :
+## 📰 Fake News Classification Using Random Forest :
 
 This project implements a Random Forest Classifier to distinguish between real and fake news articles using text-based features and machine learning techniques.
 
@@ -49,7 +49,7 @@ The model demonstrates effective binary classification by combining text mining 
 
 
 
-##🤰 Maternal Health Risk Assessment Using Machine Learning :
+## 🤰 Maternal Health Risk Assessment Using Machine Learning :
 
 This project uses machine learning to classify maternal health risks (low, mid, high) based on vital signs and medical indicators.
 
@@ -82,7 +82,8 @@ Ethics: Prioritize data privacy and minimize risk of misclassification.
 
 
 
-##🔬 Breast Cancer Detection Using CNN
+## 🔬 Breast Cancer Detection Using CNN :
+
 This project leverages a Convolutional Neural Network (CNN) to detect breast cancer from histopathological images. The model is designed to automatically classify images into benign or malignant categories, supporting early and accurate diagnosis for medical professionals.
 
 ### 🧰 Libraries and Tools
@@ -127,7 +128,7 @@ This architecture is optimized to capture the visual patterns indicative of canc
 
 
 
-# 💳 Credit Card Fraud Detection
+## 💳 Credit Card Fraud Detection
 
 This project applies machine learning techniques to detect fraudulent credit card transactions. Given the highly imbalanced nature of fraud detection datasets, the project emphasizes proper sampling, feature engineering, and model evaluation to ensure accurate classification of rare fraud cases.
 

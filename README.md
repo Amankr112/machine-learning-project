@@ -48,33 +48,85 @@ The model demonstrates effective binary classification by combining text mining 
 
 
 
+## 🩺 Maternal Health Risk Prediction using Machine Learning :
 
-## 🤰 Maternal Health Risk Assessment Using Machine Learning :
+This project predicts the maternal health risk level (Low, Mid, High) based on various physiological parameters using machine learning techniques. It is intended to aid early identification of health risks during pregnancy and support proactive maternal care.
 
-This project uses machine learning to classify maternal health risks (low, mid, high) based on vital signs and medical indicators.
+### 📁 Dataset
+Source: Kaggle - Maternal Health Risk Data Set
 
-### 📊 Dataset:
-452 clean records with features: Age, SystolicBP, DiastolicBP, Blood Sugar (BS), Body Temp, Heart Rate, and Risk Level.
+### Features:
 
-Key Insight: Blood Sugar has the highest correlation with risk (0.548).
+Age: Age of the patient (18 - 45 years)
 
-### 📈 Modeling:
-Model Used: SVM with RBF kernel.
+SystolicBP: Upper blood pressure reading
 
-Performance: ~71% training accuracy, ~68.8% test accuracy.
+DiastolicBP: Lower blood pressure reading
 
-Evaluation: Confusion matrix and classification report used for multi-class assessment.
+BS: Blood sugar level (random)
 
-### 🔧 Recommendations:
-Feature Engineering: Create composite features or interaction terms (e.g., combine BP values).
+BodyTemp: Body temperature (°F)
 
-Hyperparameter Tuning: Use GridSearchCV or RandomizedSearchCV to optimize SVM.
+HeartRate: Heart rate (bpm)
 
-Model Comparison: Test with Random Forest, Gradient Boosting, Neural Networks.
+RiskLevel: Target class (low, mid, high)
 
-Cross-Validation: Apply to validate generalization.
+### 🔍 Project Workflow
+1. Data Preprocessing
+Checked for null values and cleaned data
 
-Ethics: Prioritize data privacy and minimize risk of misclassification.
+Removed outliers using the IQR method
+
+Encoded target labels
+
+Handled class imbalance (recommend SMOTE for future enhancement)
+
+2. Exploratory Data Analysis (EDA)
+Distribution plots for each feature
+
+Correlation heatmap and pairplot
+
+Boxplots by risk level
+
+3. Modeling
+Evaluated the following classification models:
+
+K-Nearest Neighbors (KNN)
+
+Support Vector Machine (SVM)
+
+Decision Tree
+
+Random Forest
+
+Logistic Regression
+
+Metrics used:
+
+Accuracy
+
+Classification Report
+
+Confusion Matrix
+
+4. Custom Decision Tree
+Implemented a decision tree from scratch using Gini impurity
+
+Includes prediction and evaluation functionality
+
+### 📊 Results
+
+Model	Accuracy
+KNN	~92.3%
+SVM	~93.6%
+Decision Tree	~92.3%
+Random Forest	94.8% ✅
+Logistic Regression	~89.7%
+Best Model: Random Forest with 94.8% accuracy
+
+Feature Importance: Heart Rate, Body Temp, and SystolicBP are top predictors
+
+
 
 
 

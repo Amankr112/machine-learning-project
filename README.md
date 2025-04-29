@@ -180,7 +180,7 @@ This architecture is optimized to capture the visual patterns indicative of canc
 
 
 
-## 💳 Credit Card Fraud Detection
+## 💳 Credit Card Fraud Detection :
 
 This project applies machine learning techniques to detect fraudulent credit card transactions. Given the highly imbalanced nature of fraud detection datasets, the project emphasizes proper sampling, feature engineering, and model evaluation to ensure accurate classification of rare fraud cases.
 

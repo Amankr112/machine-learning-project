@@ -1,10 +1,11 @@
-# machine-learning-project
+# Machine-Learning-projects
 
 
-📰 Fake News Classification Using Random Forest
+##📰 Fake News Classification Using Random Forest :
+
 This project implements a Random Forest Classifier to distinguish between real and fake news articles using text-based features and machine learning techniques.
 
-📌 Overview:
+### 📌 Overview:
 Datasets: Two CSV files with real and fake news (titles, body text, subject, date).
 
 Sampling: 5,000 articles from each class for balance and efficiency.
@@ -13,32 +14,32 @@ Labeling: Real news = 1, Fake news = 0.
 
 Text Preparation: Title and body are merged to form the main input.
 
-🛠 Feature Engineering:
+### 🛠 Feature Engineering:
 Body Length: Character count excluding spaces.
 
 Punctuation %: Share of punctuation characters in text.
 
-🧹 Preprocessing:
+### 🧹 Preprocessing:
 Remove punctuation, lowercase conversion.
 
 Tokenization, stopword removal, and stemming.
 
-🔀 Data Handling:
+### 🔀 Data Handling:
 Train/Test Split: 60% training, 40% testing.
 
 Vectorization: TF-IDF for text, combined with engineered features.
 
-🌲 Model:
+### 🌲 Model:
 Algorithm: Random Forest (n_estimators=150, max_depth=None, n_jobs=-1).
 
 Training: On combined TF-IDF + numeric features.
 
-📊 Evaluation:
+### 📊 Evaluation:
 Metrics: Accuracy, Precision, Recall, F1-Score.
 
 Confusion Matrix: Visualized with heatmap for interpretability.
 
-✅ Conclusion:
+### ✅ Conclusion:
 The model demonstrates effective binary classification by combining text mining and ensemble learning, providing a reliable baseline for fake news detection.
 
 
@@ -48,22 +49,23 @@ The model demonstrates effective binary classification by combining text mining 
 
 
 
-🤰 Maternal Health Risk Assessment Using Machine Learning
+##🤰 Maternal Health Risk Assessment Using Machine Learning :
+
 This project uses machine learning to classify maternal health risks (low, mid, high) based on vital signs and medical indicators.
 
-📊 Dataset:
+### 📊 Dataset:
 452 clean records with features: Age, SystolicBP, DiastolicBP, Blood Sugar (BS), Body Temp, Heart Rate, and Risk Level.
 
 Key Insight: Blood Sugar has the highest correlation with risk (0.548).
 
-📈 Modeling:
+### 📈 Modeling:
 Model Used: SVM with RBF kernel.
 
 Performance: ~71% training accuracy, ~68.8% test accuracy.
 
 Evaluation: Confusion matrix and classification report used for multi-class assessment.
 
-🔧 Recommendations:
+### 🔧 Recommendations:
 Feature Engineering: Create composite features or interaction terms (e.g., combine BP values).
 
 Hyperparameter Tuning: Use GridSearchCV or RandomizedSearchCV to optimize SVM.
@@ -80,10 +82,10 @@ Ethics: Prioritize data privacy and minimize risk of misclassification.
 
 
 
-🔬 Breast Cancer Detection Using CNN
+##🔬 Breast Cancer Detection Using CNN
 This project leverages a Convolutional Neural Network (CNN) to detect breast cancer from histopathological images. The model is designed to automatically classify images into benign or malignant categories, supporting early and accurate diagnosis for medical professionals.
 
-🧰 Libraries and Tools
+### 🧰 Libraries and Tools
 Programming Language: Python 3.x
 
 Deep Learning Framework: TensorFlow / Keras
@@ -94,7 +96,7 @@ Visualization: Matplotlib, Seaborn
 
 Evaluation & Preprocessing: scikit-learn
 
-📁 Dataset
+### 📁 Dataset
 The model is trained on a breast histopathology image dataset, such as the IDC Regular Breast Histopathology Dataset, which contains labeled image samples across two classes:
 
 Benign – Non-cancerous cell structures
@@ -103,7 +105,7 @@ Malignant – Cancerous cell structures
 
 Images are typically resized to 128x128 or 224x224 pixels for input into the neural network.
 
-🧠 Model Architecture
+### 🧠 Model Architecture
 The CNN architecture includes:
 
 Input Layer: Accepts RGB image inputs.
@@ -131,7 +133,7 @@ This project applies machine learning techniques to detect fraudulent credit car
 
 ---
 
-## 📁 Dataset
+📁 Dataset
 
 The dataset used is based on anonymized credit card transactions made by European cardholders in September 2013. It contains:
 
@@ -143,7 +145,7 @@ The dataset used is based on anonymized credit card transactions made by Europea
 
 ---
 
-## 🧰 Libraries Used
+🧰 Libraries Used
 
 - **Python 3.x**
 - **NumPy / Pandas** – Data manipulation
@@ -153,24 +155,24 @@ The dataset used is based on anonymized credit card transactions made by Europea
 
 ---
 
-## 🔍 Project Workflow
+🔍 Project Workflow
 
-### 1. Data Exploration
+#### 1. Data Exploration
 - Visualizations of fraud vs. non-fraud distribution
 - Summary statistics and correlation analysis
 
-### 2. Preprocessing
+#### 2. Preprocessing
 - Feature scaling (standardization of `Amount` and `Time`)
 - Handling class imbalance via **Under-sampling** or **SMOTE**
 
-### 3. Model Building
+#### 3. Model Building
 Models tested include:
 - **Logistic Regression**
 - **Random Forest**
 - **XGBoost**
 - **SVM**
 
-### 4. Evaluation Metrics
+#### 4. Evaluation Metrics
 Due to class imbalance, models are evaluated using:
 - **Precision**
 - **Recall**
@@ -180,7 +182,7 @@ Due to class imbalance, models are evaluated using:
 
 ---
 
-## 📈 Results
+### 📈 Results
 
 - **Best Accuracy**: ~99.9% (not a reliable indicator due to imbalance)
 - **Best Recall (Fraud class)**: Achieved with Random Forest + SMOTE
@@ -188,7 +190,7 @@ Due to class imbalance, models are evaluated using:
 
 ---
 
-## ✅ Key Takeaways
+### ✅ Key Takeaways
 
 - Class imbalance is a major challenge; accuracy alone is misleading.
 - Proper preprocessing and metric selection are essential for fraud detection.
@@ -196,14 +198,14 @@ Due to class imbalance, models are evaluated using:
 
 ---
 
-## 🛡️ Ethical Considerations
+### 🛡️ Ethical Considerations
 
 - Ensure privacy and fairness in modeling.
 - Models should not replace human judgment but aid in risk analysis.
 
 ---
 
-## 🚀 Future Work
+### 🚀 Future Work
 
 - Deploy as a REST API for real-time scoring
 - Try deep learning architectures (e.g., Autoencoders for anomaly detection)

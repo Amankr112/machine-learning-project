@@ -1,6 +1,6 @@
 # machine-learning-project
 
-## Fake News Classification Using Random Forest:
+## 1. Fake News Classification Using Random Forest:
 
 
 "Fake News Classification Using Random Forest" is a machine learning-based approach designed to classify news articles as either real or fake. The main objective is to develop a reliable model that can distinguish between authentic and fabricated news using a Random Forest Classifier, a popular ensemble learning method.
@@ -48,7 +48,7 @@ The project successfully demonstrates the use of Random Forest for binary classi
 
 
 
-## Maternal Health Risk using machine learning:
+## 2. Maternal Health Risk using machine learning:
 
 
 Your project on **Maternal Health Risk Assessment using Machine Learning** is progressing well. You have already performed several key steps, including data cleaning, exploratory data analysis, and building an SVM (Support Vector Machine) model for classification.
@@ -85,4 +85,33 @@ Your project on **Maternal Health Risk Assessment using Machine Learning** is pr
 5. **Ethical Considerations**:
    - As you mentioned, it's crucial to ensure that your model adheres to ethical standards, particularly concerning patient data privacy and the potential implications of misclassification.
 
-Would you like assistance in any specific area, such as improving the model, visualization, or adding more advanced features?
+
+
+
+
+
+## 3. Breast Cancer Detection Using CNN :
+This project implements a Convolutional Neural Network (CNN) for detecting breast cancer from image data (e.g., histopathological images). The model aims to classify images into benign or malignant classes, assisting in early diagnosis and treatment planning.
+
+
+## 🧰 Libraries Used :
+- Python 3.x
+- TensorFlow / Keras
+- NumPy, Pandas
+- Matplotlib / Seaborn
+- scikit-learn
+
+## 📊 Dataset :
+The project uses a breast histopathology image dataset such as:
+- **IDC Regular Breast Histopathology Dataset** (or similar)
+- Two classes: `benign` and `malignant`
+
+## 🧠 Model Architecture :
+
+- Input: RGB image (resized to 128x128 or 224x224)
+- Convolutional layers with ReLU activation
+- MaxPooling layers to reduce spatial dimensions
+- Dense layers + Dropout for regularization
+- Output layer with sigmoid or softmax activation for binary classification.
+
+
